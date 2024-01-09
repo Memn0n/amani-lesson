@@ -1,0 +1,112 @@
+#navbar{
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar .logo img{
+ width: 100px;
+ height: 100px;
+}
+
+#navbar .buttons button{
+    margin-top: 30px;
+    padding: 5px 10px;
+    font-size: 18px;
+    border-radius: 50px;
+    border-width: 1px;
+}
+
+#navbar .buttons button:hover{
+    background-color: black;
+    color: azure;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#front-page {
+    text-align: center;
+}
+
+#front-page h1{
+    font-size: 70px;
+    color:green;
+}
+
+#front-page h2{
+    margin-top: -20px;
+    font-size: 50px;
+    color: yellowgreen;
+}
+
+#front-page p{
+    font-size: 20px;
+}
+
+#front-buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#front-buttons button{
+    padding: 5px 10px;
+    font-size: 18px;
+    border-radius: 50px;
+    border-width: 1px;
+    background-color: black;
+    color: white;
+}
+
+#front-buttons button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#info h2{
+    text-align: center;
+    font-size: 45px;
+}
+
+#info h3{
+    text-align: center;
+    font-size: 35px;
+}
+
+#cv{
+    display: flex;
+    margin: 20px;
+}
+
+#cv img{
+    margin-right: 20px;
+    width: 50%;
+}
+
+#cv .img{
+    width: 400px;
+    height: 400px;
+}
+
+#cv p{
+   width: 50%;
+   font-size: 20px;
+}
+
+@media (max-width:860px){
+    #cv p{
+        font-size: 16px;
+    }
+}
+
+@media (max-width:680px){
+    #cv{
+        display: block;
+    }
+    #cv img{
+        display: flex;
+        margin-right: 0;
+    }
+}
